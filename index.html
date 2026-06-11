@@ -1,7 +1,23 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Data</title>
     <script type="module" src="script.mjs"></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Music Data</h1>
+    </header>
+    <main>
+      <section>
+        <label for="user-select">Choose a user:</label>
+        <select id="user-select">
+          <option value="">-- Select a user --</option>
+        </select>
+      </section>
+      <div id="results"></div>
+    </main>
+  </body>
 </html>
