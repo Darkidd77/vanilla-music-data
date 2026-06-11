@@ -1,0 +1,25 @@
+{
+  "name": "vanilla-music-data",
+  "version": "1.0.0",
+  "description": "A lightweight web app that calculates and displays user music statistics.",
+  "main": "data.js",
+  "type": "module",
+  "scripts": {
+    "start": "http-server .",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkidd77/vanilla-music-data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darkidd77/vanilla-music-data/issues"
+  },
+  "homepage": "https://github.com/Darkidd77/vanilla-music-data#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
