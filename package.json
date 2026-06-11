@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "http-server .",
-    "test": "node --test"
+    "test": "node --test *.test.mjs"
   },
   "repository": {
     "type": "git",
